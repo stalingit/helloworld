@@ -1,5 +1,5 @@
 <?php
-$name = "stalin";
+$name = "stalin thomas";
 $home = "Kumbakonam";
 $array = array();
 $array["name"] = $name;
