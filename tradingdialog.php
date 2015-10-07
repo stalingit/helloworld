@@ -1,4 +1,4 @@
-\\clserver\development\stalin\football\application\views\user
+\\clserver\development\stalin\football\application\views\user\tradingdialog.php
 
 line no 22-----25
 
