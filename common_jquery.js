@@ -1,4 +1,4 @@
-\\clserver\development\stalin\football\assets\js
+\\clserver\development\stalin\football\assets\js\common_jquery.js
 
  var _validFileExtensions = [".jpg", ".jpeg", ".gif", ".png"];    
 function Validate(oForm) {
