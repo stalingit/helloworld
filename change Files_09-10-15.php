@@ -15,3 +15,20 @@
   Css Folder:
   
   1.\\CLSERVER\development\stalin\football\assets\css\sweetalert.css
+  
+  \\CLSERVER\development\stalin\football\application\views\user\right_content.php
+  
+  \\CLSERVER\development\stalin\football\application\views\user\friend_list.php
+  
+    \\CLSERVER\development\stalin\football\application\controllers\user.php
+    
+     public function get_user_autocomplete()
+	 {
+		
+   	    $data = $this->user_model->search_user();
+   	    $users_friends_arr = $this->user_model->get_friends_list($this->session->userdata('user_id'),"1,2");
+		
+		  echo json_encode($data);
+	 }
+  
+  
