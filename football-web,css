@@ -3,7 +3,7 @@ line no Starts 517
 
 
 /*** Trading Dialog Box Button Style**/
-  .btn-file {
+  /***.btn-file {
     position: relative;
     overflow: hidden;
 }
@@ -22,3 +22,27 @@ line no Starts 517
     cursor: inherit;
     display: block;
 }
+*****/
+
+.progress { position:relative; width:400px; border: 1px solid #ddd; padding: 1px; border-radius: 3px;display:none }
+				  .bar { background-color: #B4F5B4; width:0%; height:20px; border-radius: 3px; }
+				  .percent { position:absolute; display:inline-block; top:3px; left:48%; }
+				  
+				.modal {
+					text-align: center;
+				}
+
+				@media screen and (min-width: 768px) { 
+				  .modal:before {
+					display: inline-block;
+					vertical-align: middle;
+					content: " ";
+					height: 100%;
+				  }
+				}
+
+				.modal-dialog {
+				  display: inline-block;
+				  text-align: left;
+				  vertical-align: middle;
+				}  
