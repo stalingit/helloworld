@@ -15,7 +15,7 @@
   Css Folder:
   
   1.\\CLSERVER\development\stalin\football\assets\css\sweetalert.css
-  
+    1.\\CLSERVER\development\stalin\football\assets\css\football-web.css
   \\CLSERVER\development\stalin\football\application\views\user\right_content.php
   
   \\CLSERVER\development\stalin\football\application\views\user\friend_list.php
@@ -31,4 +31,5 @@
 		  echo json_encode($data);
 	 }
   
-  
+ \\CLSERVER\development\stalin\football\application\config\config.php
+  \\CLSERVER\development\stalin\football\application\helpers\common_helper.php
